@@ -4,10 +4,10 @@ Satellite image analysis is crucial for monitoring land use changes, urbanizatio
 
 ## Models and Code
 
-- **Dual Encoder Transformer (DET) with U-Net**: Implemented in `src/DET/DET_UNet_Train.py` and `src/DET/DET_UNet_Test.py`.
-- **Spatial-Temporal Attention Transformer (STA) with U-Net**: Implemented in `src/STA/STA_UNet_Train.py` and `src/STA/STA_UNet_Test.py`.
-- **Vision Transformer (ViT) with U-Net**: Implemented in `src/ViT/ViT_UNet_Train.py` and `src/ViT/ViT_UNet_Test.py`.
-- **Multi-Scale Vision Transformer (MSViT) with U-Net**: Implemented in `src/MSViT/MSViT_UNet_Train.py` and `src/MSViT/MSViT_UNet_Test.py`.
+- **Dual Encoder Transformer (DET) with U-Net**: Implemented in `src/DET.py`.
+- **Spatial-Temporal Attention Transformer (STA) with U-Net**: Implemented in `src/STA.py`.
+- **Vision Transformer (ViT) with U-Net**: Implemented in `src/ViT.py`.
+- **Multi-Scale Vision Transformer (MSViT) with U-Net**: Implemented in `src/MSViT.py`.
 
 ## Dependencies
 
@@ -28,8 +28,7 @@ A `requirements.txt` file is provided with the necessary packages. You can insta
 
 1. **Clone the Repository**: Use `git clone https://github.com/your-username/your-repo-name.git`.
 2. **Install Dependencies**: Run `pip install -r requirements.txt`.
-3. **Train Models**: Execute each model's training script (e.g., `python src/DET/DET_UNet_Train.py`).
-4. **Test Models**: Use the testing scripts to evaluate model performance (e.g., `python src/DET/DET_UNet_Test.py`).
+3. **Models**: Execute each model's script (e.g., `python src/DET.py`).
 
 ## Dataset
 
