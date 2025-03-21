@@ -4,10 +4,25 @@ Satellite image analysis is crucial for monitoring land use changes, urbanizatio
 
 ## Models and Code
 
-- **Dual Encoder Transformer (DET) with U-Net**: Implemented in `src/DET.py`.
-- **Spatial-Temporal Attention Transformer (STA) with U-Net**: Implemented in `src/STA.py`.
-- **Vision Transformer (ViT) with U-Net**: Implemented in `src/ViT.py`.
-- **Multi-Scale Vision Transformer (MSViT) with U-Net**: Implemented in `src/MSViT.py`.
+The repository contains the implementations of the following models:
+
+1. **Dual Encoder Transformer (DET) with U-Net**  
+   - Training Script: `src/Dual_Encoder_Transformer/train.py`  
+   - Testing Script: `src/Dual_Encoder_Transformer/test.py`
+
+2. **Spatial-Temporal Attention Transformer (STA) with U-Net**  
+   - Training Script: `src/Spatial_Temporal_Attention/train.py`  
+   - Testing Script: `src/Spatial_Temporal_Attention/test.py`
+
+3. **Vision Transformer (ViT) with U-Net**  
+   - Training Script: `src/Vision_Transformer/train.py`  
+   - Testing Script: `src/Vision_Transformer/test.py`
+
+4. **Multi-Scale Vision Transformer (MSViT) with U-Net**  
+   - Training Script: `src/Multi_Scale_Vision_Transformer/train.py`  
+   - Testing Script: `src/Multi_Scale_Vision_Transformer/test.py`
+
+Each script is designed to train and test the respective model on satellite imagery datasets.
 
 ## Dependencies
 
@@ -22,17 +37,11 @@ To run the code, ensure you have the following dependencies installed:
 
 A `requirements.txt` file is provided with the necessary packages. You can install them using:
 
-- **pip install -r requirements.txt**
-
-## Setup and Usage
-
-1. **Clone the Repository**: Use `git clone https://github.com/your-username/your-repo-name.git`.
-2. **Install Dependencies**: Run `pip install -r requirements.txt`.
-3. **Models**: Execute each model's script (e.g., `python src/DET.py`).
+pip install -r requirements.txt
 
 ## Dataset
 
-This study uses a satellite image dataset. For access to the dataset go to `dataset/CLCD`.
+This study uses a satellite image dataset stored in the following directory: `dataset/CLCD/`
 
 ## Citation
 
@@ -41,12 +50,8 @@ If you use this repository or its contents in your research, please cite the fol
 **"Enhanced Satellite Imagery Change Detection using Transformer-Based Deep Learning Models"**  
 Published in: **The Visual Computer**  
 Authors: Kathan Patel, Mahi Kachhadiya, Rashmi Bhattad, Deepak Patel  
-DOI: -
+DOI: [not available]
 
 ## DOI for Repository
 
 This repository is assigned a DOI: [Insert DOI if available].
-
-
-
-
