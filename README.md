@@ -54,4 +54,4 @@ DOI: [not available]
 
 ## DOI for Repository
 
-This repository is assigned a DOI: [Insert DOI if available].
+This repository is assigned a DOI: `https://doi.org/10.5281/zenodo.15066892`
